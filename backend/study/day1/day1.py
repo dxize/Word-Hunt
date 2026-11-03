@@ -1,0 +1,10 @@
+word: str = input("Enter an English word: ")
+translation: str = input("Enter the Russian translation: ")
+example: str = input("Enter an example sentence using the English word: ")
+
+print("----- Word Hunt -----")
+print(f"Word: {word}")
+print(f"Translation: {translation}")
+print(f"Example: {example}")
+print(f"Word Length: {len(word)} characters")
+print("---------------------")

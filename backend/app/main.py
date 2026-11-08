@@ -6,9 +6,7 @@ app = FastAPI(
     version="0.1.0"
 )
 
-
 app.include_router(cards_router)
-
 
 @app.get("/health")
 def health_check() -> dict[str, str]:
